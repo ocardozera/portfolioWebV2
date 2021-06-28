@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Web V2</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/94ae3bfa2d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Meu portfólio V2</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projetos">Portfólio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">Sobre</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Matheus Cardoso</h1>
+      <p class="lead text-muted">Aluno de Engenharia de Software do IFPR - Campus Paranavaí</p>
+      <p>
+        <a href="#" class="btn btn-primary my-2">Entre em contato abaixo!</a>
+      </p>
+      <a href="https://www.instagram.com/ocardozera">
+        <i class="padding-icones fab fa-instagram-square"></i>
+      </a>
+      <a href="https://www.github.com/ocardozera">
+        <i class="padding-icones fab fa-github-square"></i>
+      </a>
+    </div>
+  </section>
+ 
+  <div class="container marketing" id="projetos">
+    <h2 class="jumbotron-heading text-center titles">APLICAÇÕES E SITES</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="logos/logo-tudogostoso.png" alt="Site Tudo Gostoso" width="140" height="140">
+        <h2>Tudo Gostoso</h2>
+        <p>Criação da plataforma de receitas Tudo Gostoso, utilizando Java.</p>
+        <p><a class="btn btn-success" href="https://www.tudogostoso.com.br/" role="button">Saber mais »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="logos/logoFatos.png" alt="Site Fatos Desconhecidos" width="140" height="140">
+        <h2>Fatos Desconhecidos</h2>
+        <p>Desenvolvimento full stack para o site Fatos Desconhecidos, foi utilizado PHP e a plataforma Wordpress.</p>
+        <p><a class="btn btn-success" href="https://www.fatosdesconhecidos.com.br/" role="button">Saber mais »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="logos/logo-uol.png" alt="Aplicativo UOL" width="140" height="140">
+        <h2>Financeiro UOL</h2>
+        <p>Criação de aplicativo para Universo Online (UOL).</p>
+        <p><a class="btn btn-success" href="#" role="button">Saber mais »</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quem sou eu? -->
+  <div class="jumbotron jumbotron-fluid text-center" id="sobre">
+    <div class="container">
+      <h1 class="display-7">Quem sou eu?</h1>
+      <p class="lead">Olá, me chamo Matheus Cardoso e sou aluno do curso Engenharia de Software do Instituto Federal do Paraná (IFPR) - Campus Paranavaí. 
+        E está é a segunda versão do meu portfólio criado para a disciplina de Programação Web, ministrada pelo Prof. Frank Willian.
+      </p>
+    </div>
+  </div>
+
+  <footer class="text-center">
+    <p>Copyright &copy; - 2021</p>
+  </footer>
+
+</body>
+</html>

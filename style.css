@@ -1,0 +1,22 @@
+p {
+    font-family: Roboto;
+}
+
+.projects-color {
+    background-color: aqua;
+
+}
+
+.padding-icones {
+    padding-left: 6px;
+}
+
+.titles {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
